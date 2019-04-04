@@ -1,0 +1,7 @@
+midwest <- as.data.frame(ggplot2::mpg)
+head(midwest)
+tail(midwest)
+View(midwest)
+dim(midwest)
+str(midwest)
+summary(midwest)
