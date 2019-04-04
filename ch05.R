@@ -5,3 +5,7 @@ View(midwest)
 dim(midwest)
 str(midwest)
 summary(midwest)
+
+library(dplyr)
+midwset <- rename(midwest, total = poptotal)
+midwest <- rename(midwest, asian = popasian)
