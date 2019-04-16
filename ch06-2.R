@@ -36,4 +36,3 @@ mpg %>%
          mean = total/2) %>%
   arrange(desc(mean)) %>%
   head(3)
-1
